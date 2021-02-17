@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<style type="text/css">
+		form {
+			margin: 10px;
+		}
+
+		input {
+			margin: 20px;
+		}
+
+	</style>
+</head>
+<body>
+   <!-- define a form  -->
+
+   <form action="#" method="post"> 
+   	  <!-- form elements -->
+
+   	  <input type="text" name="username" id="username" placeholder="Enter Your username">
+   	  <br>
+   	  <input type="email" name="email" id="email" placeholder="Enter Your Email">
+   	  <br>
+   	  <label for="password">Password</label>
+   	  <br>
+      <input type="password" name="pass" id="pass" >
+       <br>
+      <!-- special inputs -->
+      <label>Male</label>
+      <input type="radio" name="male">
+      <label>Female</label>
+      <input type="radio" name="female">
+       <br>
+      <label>Male</label>
+      <input type="checkbox" name="male1">
+      <label>Female</label>
+      <input type="checkbox" name="female1">
+
+      <input type="file" name="file">
+      <br>
+
+      <select>
+      	<option>Select a value</option>
+        <option>Toyota</option>
+        <option>Benz</option>
+        <option>Prado</option>
+      </select>
+       <br>
+      <textarea rows="10" cols="10" placeholder="Enter your bio"></textarea>
+       <br>
+      <input type="submit" name="save" id="submit" value="Save data" style="background-color: blue; padding: 10px;">
+      <input type="reset" name="reset" id="reset" value="reset" style="background-color: red; padding: 10px;">
+
+   </form>
+
+
+</body>
+</html>

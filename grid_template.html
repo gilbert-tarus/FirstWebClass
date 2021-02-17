@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid Template</title>
+	<style type="text/css">
+		   #item1{
+              grid-area: header;
+              padding: 20px;
+		   }
+		   #item2{
+               grid-area: menu;
+                  background-color: red;
+              padding: 20px;
+		   }
+		   #item3{
+              grid-area: main;
+                 background-color: black;
+              padding: 20px;
+		   }
+		   #item4{
+		   	grid-area: footer;
+		   	   background-color: tomato;
+              padding: 20px;
+
+		   }
+
+		   .grid-container{
+		   	   display: grid;
+		   	   grid-template-areas: 
+		   	   'header header header header'
+		   	   'main main main menu'
+		   	   'footer footer footer footer';
+
+		   	   grid-gap: 20px;
+		   }
+
+		   @media screen and (max-width: 828px){
+		   	  /*css code */
+		   	  		   #item1{
+              grid-area: header;
+              background-color: yellow;
+              padding: 20px;
+		   }
+		   #item2{
+               grid-area: menu;
+                  background-color: red;
+              padding: 20px;
+		   }
+		   #item3{
+              grid-area: main;
+                 background-color: black;
+              padding: 20px;
+		   }
+		   #item4{
+		   	grid-area: footer;
+		   	   background-color: tomato;
+              padding: 20px;
+
+		   }
+
+		   .grid-container{
+		   	   display: grid;
+		   	   grid-template-areas: 
+		   	   'header header header header'
+		   	   'menu main main menu'
+		   	   'footer footer footer footer';
+
+		   	   grid-gap: 20px;
+		   }
+		   }
+	
+	</style>
+</head>
+<body>
+
+	<div class="grid-container">
+        <div id="item1">
+        	<!-- create elements here  -->
+        	<img src="images/google.webp" alt="images" width="80" height="80"> 
+        
+        </div>
+        <div id="item2">2</div>
+        <div id="item3">3</div>
+        <div id="item4" >4</div>
+	</div>
+
+</body>
+</html>

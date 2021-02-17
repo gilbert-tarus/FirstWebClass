@@ -1,0 +1,58 @@
+ /* do css stylings 
+
+            /*to call an id*/
+            #head1 {
+                color: yellow;
+                font-style: bold;
+                padding: 20px;
+                text-align: center;
+            }
+            #head2 {
+                text-align: right;
+                padding: 10px;
+                font-style: italic;
+            }
+
+            #bodyIndex {
+                background-color: whitesmoke;
+            }
+
+            /*to call a class*/
+            .leadPara {
+               color: red; 
+               font-family: cursive;
+               text-align: center;
+               background-color: #3949AB;
+            }
+
+            /*to call a tag*/
+            blockquote {
+
+                font-style: italic;
+                font-weight: bold;
+                background-color: yellow;
+                color: #000;
+                padding: 10px;
+            }
+
+            a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+table, th, td {
+  border: 1px solid black;
+     border-collapse: collapse;
+     padding: 20px;
+}
+
+       #div1 {
+           background-color: yellow;
+           color: black;
+       }
+
+       #div2 {
+     background-color: black;
+           color: white;
+       }
